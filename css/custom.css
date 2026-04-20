@@ -38,7 +38,7 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
 
 .top-navbar{
     background-color: #071425; /* Background color */
-
+    z-index: 200;
 }
 .navbar-nav a{
     color:#82b0f0;
@@ -136,18 +136,17 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
 }
 
 .description-main-article{
-    font-size: 15px;
+    font-size: 0.91rem;
 }
 
 .main-article .author{
-    font-size: 15px;
+    font-size: 0.91rem;
 }
 
 
 .central-zone .central-articles{
     margin-top: 13.75rem;
 }
-
 
 .main-article p{
     font-size: 4.375rem;
@@ -159,8 +158,60 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     text-transform: uppercase;
 }
 
+
+.central-articles .left-central-articles{
+    padding-top: 4.375rem;
+}
+
+.central-articles .left-central-articles p, .central-articles .right-central-articles, .left-sport-articles p{
+    font-size: 2.5rem;
+}
+
+.left-articles header{
+    font-size: 0.75rem;
+}
+
 .central-articles footer{
     font-size: 0.65rem;
+    font-weight: 400;
+}
+
+.central-articles .right-articles h6{
+    font-weight: 400;
+}
+
+.right-central-articles.sticky-top{
+    z-index: 1;
+}
+
+.right-central-articles{
+    margin-top: 4.3rem;
+    background-color: #f4f5f6;
+}
+
+.right-articles header{
+    font-size: 0.75rem;
+}
+
+.flash-text{
+    color: #1a5fb4
+}
+
+.right-sport-articles span{
+    font-weight: 500;
+}
+
+
+.subscription{
+    background-color: #092952;
+}
+
+.subscription .sub-title{
+    font-weight: 600;
+}
+
+.subscription .sub-description{
+    font-size: 0.94rem;
     font-weight: 400;
 }
 
