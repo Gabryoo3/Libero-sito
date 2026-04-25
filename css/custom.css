@@ -4,7 +4,7 @@ html{
 
 @media screen and (max-width: 950px) {
     html{
-        font-size: 90%
+        font-size: 90%;
     }
 }
 
@@ -30,11 +30,6 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     }
 }
 
-@media screen and (min-width: 992px){
-    .page-content{
-        min-width: 992px;
-    }
-}
 
 .top-navbar{
     background-color: #071425; /* Background color */
@@ -148,6 +143,14 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     margin-top: 13.75rem;
 }
 
+.central-articles {
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.93rem;
+    padding-right: 0.93rem;
+}
 .main-article p{
     font-size: 4.375rem;
     line-height: 1.2;
@@ -182,6 +185,7 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
 
 .right-central-articles.sticky-top{
     z-index: 1;
+    top: 4rem;
 }
 
 .right-central-articles{
@@ -202,8 +206,59 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
 }
 
 
+.videos-row, .blogs-row{
+    background-color: #b0d0fc;
+    .btn span {
+        font-size: 0.70rem;
+    }
+    .btn:hover{
+        background-color: transparent;
+        i{
+            color: #002e62;
+        }
+        color: black;
+    }
+}
+
+.video-cards{
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.video-cards, .blogs-description {
+    span {
+        font-size: 0.70rem;
+        font-weight: 800;
+    }
+    .btn{
+        padding-left: 0.2rem;
+        padding-right: 0.3rem;
+        line-height: 0.3;
+        background-color: #b0d0fc;
+        border: none;
+    }
+    .btn:hover{
+        pointer-events: none;
+    }
+}
+.video-cards .card-text{
+    background-color: #101e30;
+}
+.blogs-description{
+    header{
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    p{
+        font-weight: 600;
+    }
+    footer{
+        font-size: 0.55rem;
+    }
+}
 .subscription{
     background-color: #092952;
+    margin-top: 8rem;
 }
 
 .subscription .sub-title{
@@ -215,3 +270,16 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     font-weight: 400;
 }
 
+
+.end-page p, span{
+    font-weight: 400;
+}
+
+.end-page .btn:focus,.end-page .btn:hover, .end-page .btn:active{
+    outline: none;
+}
+
+.end-page .page-info{
+    font-size: 0.94rem;
+    font-weight: 400;
+}
