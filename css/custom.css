@@ -44,12 +44,22 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     color: #ffffff ; /* Text color on hover */
 }
 
-.navbar .search-bar{
+.navbar .search-bar {
     background-color: #092952; /* Background color */
     border: none; /* Remove border */
     box-shadow: none; /* Remove shadow */
-
 }
+
+#navbarSearchCanvas{
+    max-width: 450px;
+}
+
+@media (max-width: 1199px){
+    #navbarSearchCanvas {
+        max-width: 309px;
+    }
+}
+
 .form-control{
     background-color: transparent;
     border: none;
@@ -72,8 +82,9 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
 }
 
 .offcanvas-body{
-    background-color: #071425;
+    background-color: #092952;
     padding-top: 0;
+
 }
 
 .dropdown-center{
@@ -220,10 +231,12 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     }
 }
 
-.video-cards{
-    flex: 0 0 auto;
-    width: 25%;
-    container-type: inline-size;
+.video-cards, .blogs-article{
+    /* Su mobile occupa l'80% della larghezza per far capire che si può scrollare */
+    width: 40vw;
+    max-width: 300px;
+    flex: 0 0 auto;  /* Impedisce a Bootstrap di rimpicciolirle */
+
 }
 
 .video-cards, .blogs-description {
