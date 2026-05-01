@@ -151,7 +151,7 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
 
 
 .central-zone .central-articles{
-    margin-top: 13.75rem;
+    margin-top: 10rem;
 }
 
 .central-articles {
@@ -163,7 +163,7 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     padding-right: 0.93rem;
 }
 .main-article p{
-    font-size: 4.375rem;
+    font-size: 3.5rem;
     line-height: 1.2;
 }
 
@@ -232,10 +232,10 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
 }
 
 .video-cards, .blogs-article{
-    /* Su mobile occupa l'80% della larghezza per far capire che si può scrollare */
+
     width: 40vw;
     max-width: 300px;
-    flex: 0 0 auto;  /* Impedisce a Bootstrap di rimpicciolirle */
+    flex: 0 0 auto;
 
 }
 
