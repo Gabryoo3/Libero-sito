@@ -208,6 +208,10 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     font-size: 0.75rem;
 }
 
+.right-articles footer{
+    color: #676d78;
+}
+
 .flash-text{
     color: #1a5fb4
 }
@@ -270,6 +274,10 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     .btn:hover {
         pointer-events: none;
     }
+}
+
+.vidoes-row-name, .blogs-row-name{
+    color: #52525e;
 }
 
 
